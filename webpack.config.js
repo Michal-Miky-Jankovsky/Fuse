@@ -38,7 +38,7 @@ const config = {
     path: __dirname + '/dist',
     filename: outputFile,
     library: 'Fuse',
-    libraryTarget: 'umd',
+    libraryTarget: 'window',
     umdNamedDefine: true
   },
   module: {

@@ -6,17 +6,8 @@
  * 
  * http://www.apache.org/licenses/LICENSE-2.0
  */
-(function webpackUniversalModuleDefinition(root, factory) {
-	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory();
-	else if(typeof define === 'function' && define.amd)
-		define("Fuse", [], factory);
-	else if(typeof exports === 'object')
-		exports["Fuse"] = factory();
-	else
-		root["Fuse"] = factory();
-})(this, function() {
-return /******/ (function(modules) { // webpackBootstrap
+window["Fuse"] =
+/******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -998,5 +989,4 @@ module.exports = Fuse;
 
 /***/ })
 /******/ ]);
-});
 //# sourceMappingURL=fuse.js.map
